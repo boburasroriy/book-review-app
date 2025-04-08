@@ -20,4 +20,20 @@ This is a dynamic web application built for the Web Technologies module (4BUIS01
 - GitHub Repository: <https://github.com/boburasroriy/book-review-app.git>
 - Hosted Application: <https://organic-flying-secretary.glitch.me/>
 
-
+## Project Structure
+/book-review-app 
+app.js # Main application file
+package.json # Project configuration 
+.gitignore # Git ignore file 
+/public # Static files 
+/images 
+/javascripts # Client-side JS 
+/styles # CSS files -  style.css 
+/routes # Route definitions 
+index.js # Main routes 
+/views # EJS templates 
+index.ejs # Homepage 
+/controllers # Controller logic 
+index.js # Main controllers 
+/users # User controllers 
+index.js # Main services  
