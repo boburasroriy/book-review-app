@@ -1,0 +1,14 @@
+<h1>Edit Review</h1>
+{{#if errors}}
+  <ul style="color: red;">
+    {{#each errors}}
+      <li>{{msg}}</li>
+    {{/each}}
+  </ul>
+{{/if}}
+<form action="/reviews/edit/{{review.id}}" method="POST">
+  <label>Title: <input type="text" name="title" value="{{review.title}}"></label><br>
+  <label>Author: <input type="text" name="author" value="{{review.author}}"></label><br>
+  <label>Genre: <input type="text" name="genre" value="{{review.genre}}"></label><br>
+  <button type="submit">Update</button>
+</form>

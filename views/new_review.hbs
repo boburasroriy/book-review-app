@@ -1,0 +1,14 @@
+<h1>Add New Review</h1>
+{{#if errors}}
+  <ul style="color: red;">
+    {{#each errors}}
+      <li>{{msg}}</li>
+    {{/each}}
+  </ul>
+{{/if}}
+<form action="/reviews" method="POST">
+  <label>Title: <input type="text" name="title" value="{{oldData.title}}"></label><br>
+  <label>Author: <input type="text" name="author" value="{{oldData.author}}"></label><br>
+  <label>Genre: <input type="text" name="genre" value="{{oldData.genre}}"></label><br>
+  <button type="submit">Submit</button>
+</form>

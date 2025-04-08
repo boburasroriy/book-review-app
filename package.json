@@ -1,0 +1,19 @@
+{
+  "name": "book-review-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This is a dynamic web application built for the Web Technologies module (4BUIS011C). It allows users to create, read, update, and delete book reviews with details like title, author, and genre. The app uses Express.js, EJS templating, and a simple file-based database.",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "express-validator": "^7.2.1",
+    "nodemon": "^3.1.9"
+  }
+}
