@@ -12,12 +12,12 @@ This is a dynamic web application built for the Web Technologies module (4BUIS01
 
 ## Dependencies
 - express: Web framework
-- ejs: Templating engine
+- express-handlebars
 - express-validator: Form validation
 - nodemon: Development server (optional)
 
 ## Links
-- GitHub Repository: <insert-public-github-link-here>
-- Hosted Application: <insert-glitch-or-other-hosting-link-here>
+- GitHub Repository: <https://github.com/boburasroriy/book-review-app.git>
+- Hosted Application: <https://organic-flying-secretary.glitch.me/>
 
 
